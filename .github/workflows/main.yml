@@ -27,4 +27,4 @@ jobs:
       run: npm install --global surge
 
     - name: Deploy to Surge
-      run: surge ./build http://foregoing-hall.surge.sh/ --token "e97b75206f7a42bcd4c5eb9d73a26a25"
+      run: surge ./build http://foregoing-hall.surge.sh/ --token ${{ secrets.RET }}
