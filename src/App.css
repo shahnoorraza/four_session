@@ -1,7 +1,9 @@
 .box{
   height: 500px;
-  background-color: gray;
+  background-color: rgb(5, 5, 53);
+  color: white;
 }
 .dayLight{
   background-color: yellow;
+  color: black
 }
